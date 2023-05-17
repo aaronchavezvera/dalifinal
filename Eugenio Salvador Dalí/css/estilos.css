@@ -1,0 +1,119 @@
+body {
+    background-color: #041a38;
+    background-image: url(../img/fondo.png);
+    background-position:0%;
+    background-repeat:calc() ;
+    background-size:auto;
+    background-position: left top;
+    background-repeat: repeat;
+    /* background-size: cover; */ /* posibles valores cover y contain */
+    background-attachment: fixed;
+    font-family: font-family: 'Expletus Sans', cursive;
+    color:#060f44;
+}
+/* Creamos un estilo para el contenedor principal diferente a la clase .container de Bootstrap para no interferir en sus estilos */
+.principal {
+    background-color: #6CA0DC;
+    margin-top: 30px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+/* Estilos generales */
+/* ---------- Estilos generales --------- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: font-family: 'Expletus Sans', cursive;
+    color:#ffffff;
+}
+a, a:link, a:visited {
+    color: #ffffff;
+}
+a:hover, a:focus {
+    color: #041a38;
+}
+.btn {
+    border-radius: 10px;
+}
+.btn-chol1, .btn-chol1:visited {
+    background-color: #041a38;
+    color: #fff;
+}
+.btn-chol1:hover, .btn-chol1:focus, .btn-chol1:visited {
+    background-color: #041a38;
+
+    color: #fff;
+}
+
+
+/* ---------- Navegación principal --------- */
+.nav-principal {
+    margin-bottom: 50px;
+    background-image: url(../img/Salvador-Dalí-1.png);
+    background-color: #083A81 !important
+    
+    
+}
+.nav-principal a, .nav-principal a:link, .nav-principal a:visited {
+    color: #85eedc;
+}
+.nav-principal a:hover, .nav-principal a:focus {
+    color: #ffffff;
+}
+.nav-principal .nav-link.active {
+    color: #b6a20f;
+}
+
+/* ---------- Carrusel Home ---------------*/
+.carousel-home {
+    margin-bottom: 40px;
+}
+.carousel-home h5 {
+    color: #04e2ff;
+}
+
+/* ------------Bloques internos ------------*/
+.bloque-interno {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* ------------ Mapa ----------- */
+.mapa-emb {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.mapa-emb .embed-responsive-item {
+    width: 100%;
+    height: 450px;
+}
+.pie{
+    background-color: #1c53ec;
+    background-position:0%;
+    background-repeat:calc() ;
+    background-size:auto;
+    background-position: left top;
+    background-repeat: repeat;
+    color: white;
+}
+
+.contenido {
+    width: 100%;
+}    
+
+.contenedor-max {
+        margin: 0 auto;
+        max-width: 1100px;
+ }
+
+.seccion {
+        align-items: center;
+        display: flex;
+        color: #fff;
+    }
+
+    .img-normalizada{
+        width: 200px;
+        height: 200px;
+    
+    }

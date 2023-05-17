@@ -1,0 +1,159 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="autor" content="Aaron Chavéz">
+    <meta name="description" content="Pagina Final Salvador Dalí">
+    <meta name="keywords" content="Bootstrap, Bootstrap 5.3, framework, html, css, maquetación web, Cholula, Pueblo mágico">
+    <title>Proyecto Final</title>
+<!-- La hoja de estilo de Bootstrap se enlaza con un CDN proporcionado por Bootstrap. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!-- Cuando añadimos hojas de estilo propias es MUY IMPORTANTE colocarlas despues de la hoja de estilos de Bootstrap para que los estilos se sobreescriban correctamente en el navegador-->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet"> 
+
+  </head>
+
+ 
+  <body>
+    
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary nav-principal">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Eugenio Salvador Dalí</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Biografía">BIOGRAFÍA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page"    href="pagina/galeria.html">GALERIA</a>
+              </li>
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="pagina/exposicion.html">EXPOSICIÓN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina/shop.html">SHOP</a>
+                </a>
+ 
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <!-- En Bootstrap trabajamos con tres tipos de contenedor: de ancho fijo (.container), fluido (.container-fluid) y de ancho específico (.container-{breakpoint}). Este último es específico para la versión 5.-->
+    <div class="container principal">
+    
+    <!-- En Bootstrap la clase .row indica una fila. Para más información de filas y columnas en Bootstrap revisa el link https://getbootstrap.com/docs/5.3/layout/grid/  -->  
+    <div class="row">
+      <!-- En Bootstrap la clase .col indica las columnas que estarán en el contenedor row. Podemos escribir la clase col o podemos indicar con número del 1 al 12 la cantidad de columnas que deberá abarcar.-->
+      <div class="col-12">
+        <center><h1> Eugenio Salvador Dalí</h1></center>
+        <br>
+
+        <!-- Este es un ejemplo de Carrusel con los elementos que proporciona Bootstrap. en este ejemplo estamos usando indicadores y textos de caption.
+        Para más referencias puedes consultar https://getbootstrap.com/docs/5.3/components/carousel/ -->
+
+        <!-- En la versión 5 los ejemplos de carrusel no están inicializados y hay que hacerlo de manera manual. En este caso, usamos el ejemplo que tiene indicadores, flechas y caption y tuvimos que agregar el atributo  data-bs-ride="false" en la primer línea para que el carrusel esté activo  -->
+        
+        <div id="carouselExampleCaptions" class="carousel slide carousel-home" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/Dali1.png" class="d-block w-100" alt="Cholula">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Coleccion Dalí</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/dali2.png" class="d-block w-100" alt="Cholula">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Queremos genios en vida</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/Salvador-Dalí-1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>La locura me mantiene cuerdo</h5>
+                <p>-Salvador Dalí-</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <img src="img/dali3.png" alt="Cholula" class="img-fluid rounded mx-auto d-block d-xs-block">
+<br>
+        <h1>BIOGRAFÍA</h1>
+        <p>
+          Salvador Dalí nace casi con el siglo. El artista catalán ve la luz por primera vez en Figueres (Girona) el 11 de mayo de 1904, dentro de la familia creada por Salvador Dalí Cusí y Felipa Domenech. 
+          Su educación comienza en 1908 en la escuela pública de la localidad, pero cuatro años después su padre lo inscribe en el Colegio Hispano-Francés de la Inmaculada Concepción de Figueres. 
+          Salvador se revela como un estudiante mediocre, y tras entrar en contacto con el impresionismo a través de la colección de Ramón Pichot su vida da un giro: en paralelo a su educación escolar, en 1916 empieza a asistir a clases de dibujo con el pintor Juan Núñez.
+          La adhesión entregada de Salvador Dalí a las propuestas surrealistas da fruto desde el primer momento. 
+          <br>
+          El artista de Figueres se convierte rápidamente en uno de los máximos representantes del movimiento a nivel mundial, llegando a exclamar “Yo soy el surrealismo”. Una frase no muy alejada realidad: el artista empieza a convertir a su propia persona, su entorno y su figura en una obra de arte múltiple y cambiante, que mantendría hasta la muerte. Incluso llega a formular su propio método surrealista, que él mismo bautizó como “método paranoico-crítico” y definió como un “método espontáneo de conocimiento irracional basado en la objetividad crítica y sistemática de las asociaciones e interpretaciones de fenómenos delirantes”.
+          Durante los años siguientes, tanto la personalidad como el arte de Salvador Dalí reciben la influencia de dos grandes figuras: Pablo Picasso, a quien conoció alrededor de 1935, y Sigmund Freud, con quien llegó a entrevistarse en 1938 gracias a la intervención del escritor Stephan Zweig.
+          La adhesión entregada de Salvador Dalí a las propuestas surrealistas da fruto desde el primer momento. El artista de Figueres se convierte rápidamente en uno de los máximos representantes del movimiento a nivel mundial, llegando a exclamar “Yo soy el surrealismo”. Una frase no muy alejada realidad: el artista empieza a convertir a su propia persona, su entorno y su figura en una obra de arte múltiple y cambiante, que mantendría hasta la muerte. Incluso llega a formular su propio método surrealista, que él mismo bautizó como “método paranoico-crítico” y definió como un “método espontáneo de conocimiento irracional basado en la objetividad crítica y sistemática de las asociaciones e interpretaciones de fenómenos delirantes”.
+          Durante los años siguientes, tanto la personalidad como el arte de Salvador Dalí reciben la influencia de dos grandes figuras: Pablo Picasso, a quien conoció alrededor de 1935, y Sigmund Freud, con quien llegó a entrevistarse en 1938 gracias a la intervención del escritor Stephan Zweig
+          En los años 40 la obra de Salvador Dalí empieza a ser reconocida a nivel mundial. Su éxito le aleja de sus antiguas y comprometidas amistades y le granjea el favor de la dictadura española, que le acoge con los brazos abiertos. Sus pinturas y esculturas empiezan a repetirse, renunciando a la innovación en favor de lo que el propio artista sabe que le funciona. El culto a sí mismo se convierte en otra de sus obsesiones: convencido de su relevancia histórica, desde los años 60 se concentra en crear su propio museo en Figueres. A partir de 1965, Salvador Dalí empieza a firmar compulsivamente hojas de papel en blanco como base para futuras litografías: su obra empieza a ser cada vez más confusa y dispersa. Es en 1975 cuando el declive del artista, ya anciano y enfermo, se muestra definitivo. Declive que culminará con la muerte de Gala en 1982 y la reclusión de Dalí en el Castillo de Púbol, y posteriormente, en la Torre Galatea.
+          En la década de los 80, las exposiciones con obra de Dalí organizadas en los mejores museos de arte contemporáneo del mundo (como el Centro Pompidou de París o la Tate Britain de Londres) arrastran multitudes. Sin embargo, el artista ya no tiene interés por el arte y 1989 es alcanzado definitivamente por el mayor de sus temores: la muerte.
+        </p>
+        <div class="embed-responsive embed-responsive-16by9"  div style="text-align:center;">
+          <!-- Video incrustado desde YouTube con la clase .embed-responsive-item -->
+          <iframe class="embed-responsive-item" width="560" height="315" src="  https://youtube.com/embed/PmT1niHXg6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+<br>
+      <div class="row bloque-interno">   
+        <h2 id="atractivos"></h2>
+        <div class="col-lg-12 col-md-12 col-sm-12" >
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title" id="frase dali" style="text-align: center;"> "NADA HAY MAS SURREAL QUE LA REALIDAD" <br> EUGENIO SALVADOR DALÍ</h5>
+          </div>
+        </div>
+<br>
+          <a href="#" class="btn btn-secondary">Volver arriba</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="pie">
+  <div class="header">
+    <div class="logo">
+      <p> Derechos reservados Áaron Chavéz</p>
+    </div>
+  </div>
+  <hr>
+</footer>
+    
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        </body>
+      </html>

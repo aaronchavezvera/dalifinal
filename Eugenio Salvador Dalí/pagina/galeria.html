@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="autor" content="Aaron Chavéz">
+    <meta name="description" content="Pagina Final Salvador Dalí">
+    <meta name="keywords" content="Bootstrap, Bootstrap 5.3, framework, html, css, maquetación web, Cholula, Pueblo mágico">
+    <title>Proyecto Final</title>
+<!-- La hoja de estilo de Bootstrap se enlaza con un CDN proporcionado por Bootstrap. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!-- Cuando añadimos hojas de estilo propias es MUY IMPORTANTE colocarlas despues de la hoja de estilos de Bootstrap para que los estilos se sobreescriban correctamente en el navegador-->
+<link rel="stylesheet" href="../css/estilos.css"> 
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet"> 
+
+  </head>
+
+ 
+  <body>
+    
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary nav-principal">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Eugenio Salvador Dalí</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html" >BIOGRAFÍA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"     href="#Galeria">GALERIA</a>
+              </li>
+            
+              
+              <li class="nav-item">
+                <a class="nav-link" href="exposicion.html">EXPOSICIÓN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">SHOP</a>
+                </a>
+ 
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container principal">
+        <div class="row">
+          <div class="col-12">
+            <center><h1>GALERÍA</h1></center>
+            <br>
+            <div class="row bloque-interno">   
+                <h2 id="atractivos">Pinturas mas Importantes de Salvador Dalí Y la información </h2>
+                <br>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+              
+                  <div class="card" style="width: 15rem;">
+                    <img src=../img/cristo.png class="card-img-top" style="width: 15rem; height: 15rem;" alt="Cristo de San Juan de la Cruz">
+                    <div class="card-body">
+                      <h5 class="card-title" id="gran-piramide">Cristo San Juan Cruz</h5>
+                 <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+                  Conoce más
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Cristo de San Juan de la Cruz</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src=../img/cristo.png class="card-img-top" alt="Cristo de San Juan de la Cruz">
+                        <br>
+                       <p>Cristo de San Juan de la Cruz es un famoso cuadro del pintor español Salvador Dalí realizado en 1951. Está hecho mediante la técnica del óleo sobre lienzo, es de estilo surrealista y sus medidas son 205 x 116 cm. Se conserva en el Museo Kelvingrove, en Glasgow, Reino Unido.
+                        La originalidad de la perspectiva y la habilidad técnica a la hora de pintar el cuadro lo han hecho muy popular, hasta el punto de que en 1961, un fanático realizó un acto vandálico contra él de poca gravedad. Durante la década de 1950, el artista volvió a recurrir varias veces al tema de la crucifixión. Un ejemplo es el Corpus hypercubus, pintado en 1954. Para pintar este cuadro se basó en las teorías contenidas en el Discurso sobre la forma cúbica del arquitecto del siglo XVI, Juan de Herrera, responsable del Monasterio de San Lorenzo de El Escorial.
+                        Dalí tomó al famoso doble de Hollywood, Russ Saunders, como modelo para pintar a Cristo, aunque hay quien afirma que el artista tomó como modelo en realidad al trapecista Diego Schmiedl.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!----------------------------->
+                
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12" >
+                  <!-- Inicia contenido de card -->
+                  <div class="card" style="width: 15rem;">
+                    <img src=../img/figura.png class="card-img-top" style="width: 15rem; height: 15rem;"  alt="Figura en una finestra">
+                    <div class="card-body">
+                      <h5 class="card-title" id="capilla-real">Figura en una finestra</h5>
+                     
+                    
+                       <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+                  Conoce más
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Figura en una finestra</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src=../img/figura.png class="card-img-top" alt="Figura en una finestra">
+                        <br>
+                        <p class="card-text">Muchacha en la ventana es un famoso cuadro del artista español Salvador Dalí, pintado en 1925. Está hecho mediante la técnica del óleo sobre cartón piedra, es de estilo realista y sus medidas son 105 x 74,5 cm. Se conserva en Madrid, en el Museo Reina Sofía.
+                            Representa a la hermana del artista, Ana María, a la edad de diecisiete años, asomada a la ventana, de espaldas, en la casa de vacaciones que la familia poseía en Cadaqués, a la orilla del mar. Dalí realiza un trabajo de gran uniformidad cromática y sencillez en la composición, donde la muchacha nos introduce en el paisaje que ella contempla.
+
+Claramente, los valores cromáticos de la obra son azules, al igual que en las obras tempranas de Picasso las cuales estaban formadas solo por gamas de color azul.
+
+La muchacha sufre algunas desproporciones notables como sus pies, los cuales son muy pequeños. La hermana de Dalí aparece en otros cuadros contemporáneos y posteriores del pintor, pues fue la modelo del pintor hasta que conoció a Gala en 1929. La pintura estuvo en la primera exposición del autor en la galería Dalmau de Barcelona, en noviembre de 1925
+                        </p>
+                
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fin modal -->
+            </div>
+        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12"> 
+               <!-- Inicia contenido de card -->
+              <div class="card" style="width: 15rem;">
+                <img src=../img/gran.png class="card-img-top" style="width: 15rem; height: 15rem;"  alt="El gran masturbador">
+                <div class="card-body">
+                  <h5 class="card-title" id="caballero-aguila">El gran masturbador</h5>
+                 
+             <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">
+              Conoce más
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">El gran masturbador</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src=../img/gran.png class="card-img-top" alt="El gran masturbador">
+                    <br>
+                    <p class="card-text">El gran masturbador es un famoso cuadro del pintor español Salvador Dalí pintado en 1929. Está hecho mediante la técnica del óleo sobre lienzo, es de estilo surrealista y sus medidas son 110 x 150 cm. Se conserva en Madrid, en el Museo Reina Sofía pues fue legado por Dalí a España.
+
+                        Este cuadro tiene las características de toda su pintura surrealista y posee una unidad equilibrada a pesar del gran número de elementos que presenta. Refleja el malestar del autor que temía, incluso, perder la cordura. Tanto el título, como el motivo central no dejan dudas sobre las implicaciones sexuales del cuadro; el sexo era una de las obsesiones del pintor.
+                        En la pintura están retratadas todas las obsesiones del autor:
+                        El elemento principal es un busto antropomórfico, mezcla de cabeza humana y rocas de la costa Brava de los alrededores de Cadaqués, que repetirá en muchos otros cuadros como La persistencia de la memoria y El enigma del deseo. Estilizado pero reconocible, se caracteriza por su color amarillento, su gran nariz apoyada en el suelo y su cara alargada. Las pestañas largas representan la contraposición entre el sueño anodino de una consumación física irremediable y el sueño de que nuestros deseos se cumplan.
+                        El saltamontes, un animal que le provocaba terror desde su infancia y que se encuentra pegado a la boca de su autorretrato. Está en estado de descomposición, lo que atrae muchas hormigas que simbolizan la muerte.
+                        Un anzuelo como atadura a su familia que quería retenerle a su lado y volver a un modo de vida tradicional del que él da muestras de querer desprenderse definitivamente.
+                        El león como deseo sexual, con una lengua rosada como símbolo fálico.
+                        Unas piedras como su pasado.
+                        Una figura aislada como soledad.
+                        El tema de la masturbación aparece en la mujer que emerge de su retrato y cuyo rostro está cerca de unos genitales masculinos escondidos en unos ceñidos calzoncillos.
+                        Un lirio pegado a la mujer que simboliza la pureza, una enrevesada forma de definir a la masturbación como la relación sexual más pura. El pistilo de la flor es, además, otro símbolo fálico.
+                        Como es normal desde que la conoció, Gala aparece representada, en este caso en la pareja que se abraza, donde ella se metamorfosea en una roca, recuerdo de los paseos que dieron por la playa.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin modal -->
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12"> 
+                <!-- Inicia contenido de card -->
+               <div class="card" style="width: 15rem;" >
+                 <img src=../img/memoria.png class="card-img-top"  style="width: 15rem; height: 15rem;"  alt="La persistencia de la memoria">
+                 <div class="card-body">
+                   <h5 class="card-title" id="caballero-aguila">Persistencia  memorial</h5>
+                  
+              <!-- Button trigger modal -->
+             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">
+               Conoce más
+             </button>
+             
+             <!-- Modal -->
+             <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h1 class="modal-title fs-5" id="exampleModalLabel">La persistencia memorial</h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                     <img src="../img/memoria.png"   class="card-img-top" alt="La persistencia memorial">
+                     <br>
+                     <p class="card-text"> El paisaje es simple; aparece el mar al fondo y una pequeña formación rocosa a la derecha de forma insólita. En primer plano a la izquierda, se observa un bloque probablemente de cartón tejido a mano, que hace las funciones de una mesa, sobre el que se disponen dos relojes, un árbol y en el centro de la obra aparece una extraña figura que simula una cabeza blanda, cuyo cuello se diluye en la oscuridad. Llama la atención la enorme nariz, la especie de lengua que sale de ella y el ojo cerrado con largas pestañas. La figura parece dormir sobre la arena. El artista ha colocado sobre esta figura un cuarto reloj, igualmente blando y que también parece derretirse o escurrirse. Los elementos anteriormente descritos se ambientan en lo que parece una playa desierta, con el mar y una cala rodeada de acantilados al fondo. El cielo y el mar se confunden.
+                        Dalí, según él mismo, se inspiró en el queso camembert a la hora de añadir el homenaje al cuadro, relacionándolos por su calidad de «tiernos, extravagantes, solitarios y paranoico-críticos». Uno de los relojes cuelga en equilibrio de la rama de un árbol. Más abajo, en el cuadro, otro se acopla a modo de montura sobre una cara con largas pestañas inspirada en una roca del cabo de Creus. La cara aparece también en otros cuadros del autor como El enigma del deseo. El tercer reloj blando está, quizás, a punto de deslizarse por un muro. Sobre este reloj hay una mosca y sobre el reloj de bolsillo, situado sobre el muro, hay multitud de hormigas que no están ahí por casualidad: este tipo de reloj se lleva próximo al cuerpo.</p>
+                   </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+                   <!-- Fin modal -->
+                </div>
+            </div>
+          </div>
+        
+          
+                    </div>
+                  </div> 
+                </div>
+    
+        <div class="row bloque-interno">   
+            <h2 id="atractivos">Pinturas que no necesitan ser explicadas y que todos amamos </h2>
+            <br>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+          
+              <div class="card" style="width: 15rem;">
+                <img src=../img/barco.png class="card-img-top" style="width: 15rem; height: 15rem;" alt="Cristo de San Juan de la Cruz">
+                <div class="card-body">
+                  <h5 class="card-title" id="gran-piramide">Barco de Mariposas</h5>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" >
+              <div class="card" style="width: 15rem;">
+                <img src=../img/guitarra.png class="card-img-top" style="width: 15rem; height: 15rem;"  alt="Figura en una finestra">
+                <div class="card-body">
+                  <h5 class="card-title" id="capilla-real">Una Guitarra</h5>
+                  </div>
+                </div>
+              </div>
+          
+        <div class="col-lg-3 col-md-6 col-sm-12"> 
+           <!-- Inicia contenido de card -->
+          <div class="card" style="width: 15rem;">
+            <img src=../img/ele.png class="card-img-top" style="width: 15rem; height: 15rem;"  alt="El gran masturbador">
+            <div class="card-body">
+              <h5 class="card-title" id="caballero-aguila">Elefantes</h5>
+            </div>
+        </div>
+      </div>
+             
+         
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12"> 
+            <!-- Inicia contenido de card -->
+           <div class="card" style="width: 15rem;" >
+             <img src=../img/antonio.png class="card-img-top"  style="width: 15rem; height: 15rem;"  alt="La persistencia de la memoria">
+             <div class="card-body">
+               <h5 class="card-title" id="caballero-aguila">Paciencia de Antonio</h5>
+               <!-- Fin modal -->
+            </div>
+        </div>
+      </div>
+ <hr>
+ 
+      <div class="col-lg-3 col-md-6 col-sm-12"> 
+        <!-- Inicia contenido de card -->
+       <div class="card" style="width: 15rem;" >
+         <img src=../img/desinte.png class="card-img-top"  style="width: 15rem; height: 15rem;"  alt="La persistencia de la memoria">
+         <div class="card-body">
+           <h5 class="card-title" id="caballero-aguila">persistencia memorial</h5>
+           <!-- Fin modal -->
+        </div>
+         </div>
+      
+</div>
+  <div class="col-lg-3 col-md-6 col-sm-12"> 
+    <!-- Inicia contenido de card -->
+   <div class="card" style="width:15rem;" >
+     <img src=../img/retrato.png class="card-img-top"  style="width: 15rem; height: 15rem;"  alt="La persistencia de la memoria">
+     <div class="card-body">
+       <h5 class="card-title" id="caballero-aguila">Autorretrato blando  </h5>
+       <!-- Fin modal -->
+    </div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 col-sm-12"> 
+    <!-- Inicia contenido de card -->
+   <div class="card" style="width: 15rem;" >
+     <img src=../img/juego.png class="card-img-top"  style="width: 15rem; height: 15rem;"  alt="La persistencia de la memoria">
+     <div class="card-body">
+       <h5 class="card-title" id="caballero-aguila">El juego lúgubre </h5>
+       <!-- Fin modal -->
+    </div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 col-sm-12"> 
+    <!-- Inicia contenido de card -->
+   <div class="card" style="width:15rem;" >
+     <img src=../img/placeres.png class="card-img-top"  style="width: 15rem; height: 15rem;"  alt="La persistencia de la memoria">
+     <div class="card-body">
+       <h5 class="card-title" id="caballero-aguila">Placeres iluminados </h5>
+       <!-- Fin modal -->
+    </div>
+</div>
+</div>
+    
+      
+                </div>
+              </div> 
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div> 
+
+
+
+            </div>
+        </div> 
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</div>              
+<footer class="pie">
+ <div class="header">
+<div class="logo">
+ <p> Derechos reservados Áaron Chavéz</p>
+</div>
+ </div>
+ <hr>
+ </footer>
+
+
+               </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        </body>
+      </html>
